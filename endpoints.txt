@@ -1,0 +1,29 @@
+# Conservative, read-only path list for authorized assessment.
+# Add your app's context path or custom management base path if known.
+/actuator
+/actuator/health
+/actuator/health/readiness
+/actuator/health/liveness
+/actuator/info
+/actuator/metrics
+/actuator/prometheus
+/actuator/mappings
+/actuator/beans
+/actuator/env
+/actuator/configprops
+/actuator/conditions
+/actuator/loggers
+/actuator/threaddump
+/actuator/scheduledtasks
+/actuator/caches
+/actuator/auditevents
+/actuator/httpexchanges
+/actuator/sessions
+/actuator/flyway
+/actuator/liquibase
+/actuator/quartz
+/actuator/startup
+/actuator/features
+/manage
+/manage/health
+/management/health
